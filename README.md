@@ -167,3 +167,7 @@ minikube service [service-name]
 ## Replace placeholders like [pod-name], [namespace-name], [deployment-name], and [service-name] with actual values.
 
 ```
+
+
+
+kubectl exec -it pod/postgres-deployment-66ddff686-tvmsv --  psql -h localhost -U postgres --password -p 5432 postgres
