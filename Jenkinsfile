@@ -7,6 +7,7 @@ pipeline {
         VERSION = "latest"
     }
     
+    
     stages {
         stage('Checkout') {
             steps {
